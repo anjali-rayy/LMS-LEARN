@@ -1,4 +1,4 @@
-import { GraduationCap, TvMinimalPlay, ChevronDown } from "lucide-react";
+import { TvMinimalPlay, ChevronDown } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 import { Button } from "../ui/button";
 import { useContext, useState } from "react";
@@ -43,10 +43,12 @@ function StudentViewCommonHeader() {
           {/* Logo and Brand */}
           <div className="flex items-center space-x-8">
             <Link to="/home" className="flex items-center hover:text-blue-600 transition-colors">
-              <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg flex items-center justify-center mr-3">
-                <GraduationCap className="h-5 w-5 text-white" />
-              </div>
-              <span className="font-bold text-xl text-gray-900">
+              <img 
+                src="/logo.png" 
+                alt="LMS Logo" 
+                className="w-14 h-14 mr-3 object-contain"
+              />
+              <span className="font-bold text-2xl text-gray-900">
                 LMS LEARN
               </span>
             </Link>
