@@ -39,8 +39,7 @@ LMS/
 │ └── server.js # Entry file
 │
 ├── .gitignore
-├── README.md
-└── package.json
+└── README.md
 
 
 ---
