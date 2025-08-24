@@ -24,32 +24,33 @@ A powerful and intuitive **web-based LMS** designed to connect students, instruc
 
 ---
 
-## 📁 Project Layout
+## 📂 Project Layout  
 
+```text
 LMS/
-├── client/                  # React frontend
-│   ├── public/              # Static assets (favicon, logo, etc.)
-│   ├── src/
-│   │   ├── assets/          # Images, icons
-│   │   ├── components/      # Reusable UI components
-│   │   ├── context/         # React context (Auth, Cart, etc.)
-│   │   ├── pages/           # App pages (Login, Courses, Dashboard)
-│   │   ├── routes/          # Route guards, protected routes
-│   │   ├── services/        # API calls (Axios)
-│   │   └── App.jsx          # Root component
-│   └── package.json
+├── client/              # React frontend
+│   ├── public/          # Static assets (favicon, logo, etc.)
+│   ├── src/             # Source code
+│   │   ├── assets/      # Images, icons
+│   │   ├── components/  # Reusable UI components
+│   │   ├── context/     # React context (Auth, Cart, etc.)
+│   │   ├── pages/       # App pages (Login, Courses, Dashboard)
+│   │   ├── routes/      # Route guards, protected routes
+│   │   └── services/    # API calls (Axios)
+│   └── package.json     # Frontend dependencies
 │
-├── server/                  # Node.js + Express backend
-│   ├── config/              # DB connection, JWT config
-│   ├── controllers/         # Request handlers (Auth, Courses, Quiz)
-│   ├── middleware/          # Auth, error handling
-│   ├── models/              # MongoDB schemas
-│   ├── routes/              # API routes
-│   ├── utils/               # Helpers (validators, token)
-│   └── server.js            # App entry
+├── server/              # Node.js + Express backend
+│   ├── config/          # DB connection, JWT config
+│   ├── controllers/     # Request handlers (Auth, Courses, Quiz)
+│   ├── middleware/      # Auth, error handling
+│   ├── models/          # MongoDB schemas
+│   ├── routes/          # API routes
+│   ├── utils/           # Helpers (validators, token)
+│   └── server.js        # App entry
 │
 ├── .gitignore
 └── README.md
+
 
 
 
